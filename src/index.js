@@ -1,8 +1,7 @@
 import { h, render } from "preact"
+import App from "./components/app"
 
 render(
-    <div>
-        <span>More to come</span>
-    </div>,
+    <App />,
     document.body
 )
