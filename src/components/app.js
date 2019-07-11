@@ -1,10 +1,11 @@
 import { h } from "preact"
 import "../stylesheets/application.scss"
+import { AlertTriangle } from "preact-feather"
 
 export default () => {
     return (
     <div>
-        <span class="text-info">More to come soon</span>
+        <div className="alert alert-warning"><AlertTriangle size={18} />More to come soon</div>
     </div>
     );
 }
