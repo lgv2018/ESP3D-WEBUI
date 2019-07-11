@@ -1,8 +1,10 @@
 import { h } from "preact"
+import "../stylesheets/application.scss"
+
 export default () => {
     return (
     <div>
-        <span>More to come soon</span>
+        <span class="text-info">More to come soon</span>
     </div>
     );
 }
