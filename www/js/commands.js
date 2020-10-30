@@ -47,7 +47,7 @@ function Monitor_output_Update(message) {
     var isverbosefilter = document.getElementById("monitor_enable_verbose_mode").checked;
     for (var i = 0; i < Monitor_outputLength; i++) {
         //Filter the output  
-        if ((Monitor_output[i].trim().toLowerCase() == "ok") && !isverbosefilter) continue;
+        if ((Monitor_output[i].trim().toLowerCase().startsWith("ok")) && !isverbosefilter) continue;
         if ((Monitor_output[i].trim().toLowerCase() == "wait") && !isverbosefilter) continue;
         if ((target_firmware == "grbl") || (target_firmware == "grbl-embedded")) {
             //no status
@@ -64,6 +64,7 @@ function Monitor_output_Update(message) {
         }
         //position
         if (!isverbosefilter && Monitor_output[i].startsWith("X:")) continue;
+         if (!isverbosefilter && Monitor_output[i].startsWith("FR:")) continue;
         m = m.replace("&", "&amp;");
         m = m.replace("<", "&lt;");
         m = m.replace(">", "&gt;");
@@ -118,7 +119,13 @@ function CustomCommand_OnKeyUp(event) {
 
 function SendCustomCommandSuccess(response) {
     if (response[response.length - 1] != '\n') Monitor_output_Update(response + "\n");
-    else Monitor_output_Update(response);
+    else {
+        Monitor_output_Update(response);
+    }
+    var tcmdres = response.split("\n");
+    for (var il = 0; il < tcmdres.length; il++){
+        process_socket_response(tcmdres[il]);
+    }
 }
 
 function SendCustomCommandFailed(error_code, response) {

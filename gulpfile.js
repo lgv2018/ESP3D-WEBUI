@@ -20,10 +20,14 @@ var fr_lang = false;
 var es_lang = false;
 var de_lang = false;
 var it_lang = false;
+var ja_lang = false;
 var pl_lang = false;
 var ptbr_lang = false;
 var ru_lang = false;
 var uk_lang = false;
+var zh_cn_lang = false;
+var hu_lang = false;
+var tr_lang = false;
 
 function clean() {
     return del(['dist']);
@@ -128,17 +132,35 @@ function clearlang() {
       return arg;
 
     })(process.argv);
-    
+    if ((arg.lang == 'grbl') ) {
+        en_lang = true;
+        fr_lang = true;
+        es_lang = true;
+        de_lang = true;
+        it_lang = true;
+        ja_lang = false;
+        hu_lang = false;
+        pl_lang = true;
+        ptbr_lang = true;
+        ru_lang = true;
+        tr_lang = false;
+        uk_lang = true;
+        zh_cn_lang = false;
+    }
     if ((typeof arg.lang == 'undefined') || (arg.lang == 'all')) {
         en_lang = true;
         fr_lang = true;
         es_lang = true;
         de_lang = true;
         it_lang = true;
+        ja_lang = true;
+        hu_lang = true;
         pl_lang = true;
         ptbr_lang = true;
         ru_lang = true;
+        tr_lang = true;
         uk_lang = true;
+        zh_cn_lang = true;
     }
     if (arg.lang == 'en'){
         en_lang = true;
@@ -167,8 +189,20 @@ function clearlang() {
     if (arg.lang == 'it'){
         it_lang = true;
     }
+    if (arg.lang == 'ja'){
+        ja_lang = true;
+    }
+    if(hu_lang){
+        console.log("hu");
+    }
+    if (arg.lang == 'hu'){
+        hu_lang = true;
+    }
     if(it_lang){
         console.log("it");
+    }
+    if(ja_lang){
+        console.log("ja");
     }
     if (arg.lang == 'pl'){
         pl_lang = true;
@@ -188,11 +222,23 @@ function clearlang() {
     if(ru_lang){
         console.log("ru");
     }
+    if (arg.lang == 'tr'){
+        tr_lang = true;
+    }
+    if(tr_lang){
+        console.log("tr");
+    }
     if (arg.lang == 'uk'){
         uk_lang = true;
     }
     if(uk_lang){
         console.log("uk");
+    }
+    if (arg.lang == 'zh_CN'){
+        zh_cn_lang = true;
+    }
+    if(zh_cn_lang){
+        console.log("zh_CN");
     }
     return gulp.src('dist/js/app.js')
         .pipe(removeCode({de_lang_disabled: !de_lang}))
@@ -200,10 +246,14 @@ function clearlang() {
         .pipe(removeCode({es_lang_disabled: !es_lang}))
         .pipe(removeCode({fr_lang_disabled: !fr_lang}))
         .pipe(removeCode({it_lang_disabled: !it_lang}))
+        .pipe(removeCode({ja_lang_disabled: !ja_lang}))
+        .pipe(removeCode({hu_lang_disabled: !hu_lang}))
         .pipe(removeCode({pl_lang_disabled: !pl_lang}))
         .pipe(removeCode({ptbr_lang_disabled: !ptbr_lang}))
         .pipe(removeCode({ru_lang_disabled: !ru_lang}))
+        .pipe(removeCode({tr_lang_disabled: !tr_lang}))
         .pipe(removeCode({uk_lang_disabled: !uk_lang}))
+        .pipe(removeCode({zh_cn_lang_disabled: !zh_cn_lang}))
         .pipe(gulp.dest('./dist/js/'))
 }
 

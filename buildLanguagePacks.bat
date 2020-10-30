@@ -13,6 +13,12 @@ copy index.html.gz languages\es
 mkdir languages\it
 cmd.exe /c gulp package --lang it
 copy index.html.gz languages\it
+mkdir languages\ja
+cmd.exe /c gulp package --lang ja
+copy index.html.gz languages\ja
+mkdir languages\hu
+cmd.exe /c gulp package --lang hu
+copy index.html.gz languages\hu
 mkdir languages\de
 cmd.exe /c gulp package --lang de
 copy index.html.gz languages\de
@@ -25,9 +31,18 @@ copy index.html.gz languages\ptbr
 mkdir languages\ru
 cmd.exe /c gulp package --lang ru
 copy index.html.gz languages\ru
+mkdir languages\tr
+cmd.exe /c gulp package --lang tr
+copy index.html.gz languages\tr
+mkdir languages\zh_CN 
+cmd.exe /c gulp package --lang zh_CN 
+copy index.html.gz languages\zh_CN 
 mkdir languages\uk
 cmd.exe /c gulp package --lang uk
 copy index.html.gz languages\uk
+mkdir languages\grbl
+cmd.exe /c gulp package --lang uk
+copy index.html.gz languages\grbl
 cmd.exe /c gulp package
 mkdir languages\multi
 copy index.html.gz languages\multi

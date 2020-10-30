@@ -17,6 +17,12 @@ var language_list = [
 //removeIf(it_lang_disabled)
     ['it', 'Italiano', 'italiantrans'],
 //endRemoveIf(it_lang_disabled)
+//removeIf(ja_lang_disabled)
+    ['ja', '&#26085;&#26412;&#35486;', 'japanesetrans'],
+//endRemoveIf(ja_lang_disabled)
+//removeIf(hu_lang_disabled)
+    ['hu', 'Magyar', 'hungariantrans'],
+//endRemoveIf(hu_lang_disabled)
 //removeIf(pl_lang_disabled)
     ['pl', 'Polski', 'polishtrans'],
 //endRemoveIf(pl_lang_disabled)
@@ -26,9 +32,15 @@ var language_list = [
 //removeIf(ru_lang_disabled)
     ['ru', 'Русский', 'russiantrans'],
 //endRemoveIf(ru_lang_disabled)
+//removeIf(tr_lang_disabled)
+    ['tr', 'T&uuml;rk&ccedil;e', 'turkishtrans'],
+//endRemoveIf(tr_lang_disabled)
 //removeIf(uk_lang_disabled)
     ['uk', 'Українська', 'ukrtrans'],
 //endRemoveIf(uk_lang_disabled)
+//removeIf(zh_cn_lang_disabled)
+    ['zh_CN', '&#31616;&#20307;&#20013;&#25991;', 'zh_CN_trans'],
+//endRemoveIf(zh_cn_lang_disabled)
 ];
 
 //removeIf(production)

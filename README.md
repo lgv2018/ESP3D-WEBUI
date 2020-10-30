@@ -9,7 +9,7 @@ Originaly based on great UI from Jarek Szczepanski (imrahil): [smoothieware-webu
 
 ## Why doing it ?
 Original I ported [smoothieware-webui](http://imrahil.github.io/smoothieware-webui/) to support [ESP3D firmware](https://github.com/luc-github/ESP3D) and it was working pretty well and gave :[smoothieware-webui-for-ESP3D](https://github.com/luc-github/smoothieware-webui-for-ESP3D) 
-But this UI has a 2 big limitations:
+But this UI has a 2 big limitations:    
 1 - you need internet access to get all libraries available to download, which may not happen when ESP is in AP mode for configuration if you do not have all js/css in your browser cache, or if you want to use in local environement, in that case not only ESP AP mode is not displaying UI properly but also STA mode - so it make the ESP useless
 
 2 - it rely on server availability and certificat check, I got several certificat failure for unknown reason that made the UI not working
@@ -25,11 +25,30 @@ So I came with a full rewrite using pure javascript and resized resources:
 
 and the result is a monolitic file with a size less than 70Kb allowing almost full control of ESP3D board and your 3D printer
 
+## Sponsors 
+[<img width="200px" src="https://raw.githubusercontent.com/luc-github/ESP3D/3.0/images/sponsors-supporters/FYSETC/LOGO.png">](https://www.fysetc.com/)  
+<hr/>
+<a href="https://github.com//bdring" style="border: solid 4px red" ><div class="CircleBadge CircleBadge--medium bg-gray-dark">
+  <img height="60" width="60" alt="@bdring" class="CircleBadge-icon" src="https://user-images.githubusercontent.com/8822552/84999946-1078ac80-b152-11ea-84ce-84803b1ab02e.png"></div></a>
+
+## Supporters
+[<img src="https://raw.githubusercontent.com/luc-github/ESP3D/3.0/images/sponsors-supporters/PanucattDevices/Panucatt.jpg" />](http://www.panucatt.com/)
+
+
+## Become a sponsor or a supporter
+ * A sponsor is a recurent donator [<img src="https://raw.githubusercontent.com/luc-github/ESP3D/3.0/images/sponsors-supporters/sponsor.PNG" />](https://github.com/sponsors/luc-github)   
+ The github sponsors are automaticaly displayed by github, if your tier is `A big hug` or more, to thank you for your support, your logo / avatar will be also added to the readme page with eventually with a link to your site.    
+
+ * A supporter is per time donator [<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG_global.gif" border="0" alt="PayPal – The safer, easier way to pay online.">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y8FFE7NA4LJWQ)    
+ If your donation is over a per year sponsor tier `A big hug`, to thank you for your support, your logo / avatar will be added to the readme page with eventually with a link to your site    
+
+ Every support is welcome, giving support/ developing new features need time and devices, donations contribute a lot to make things happen, thank you.
+
 ## Features
 - It supports several firmwares based on Repetier, Marlin and Smoothieware.
 - It allows to fully configure ESP wifi
 - It has a macro support to add custom commands in UI by adding buttons launching some GCODE files from SD or ESP 
-- It supports currently English, French, German (thanks @leseaw) and Spanish languages
+- It supports several languages, check list [here](https://github.com/luc-github/ESP3D-WEBUI/wiki/Translation-support)
 - It allows to display a web camera in UI or detached
 - It allows to edit the Repetier EEPROM, Smoothieware config file, Marlin and GRBL settings
 - It allows to update the ESP3D by uploading the FW
@@ -38,7 +57,6 @@ and the result is a monolitic file with a size less than 70Kb allowing almost fu
 Please look at screenshots:
 Main tab and menu:   
 <img src='https://raw.githubusercontent.com/luc-github/ESP3D-WEBUI/master/images/Full1.PNG'/>   
-<img src='https://raw.githubusercontent.com/luc-github/ESP3D-WEBUI/master/images/Full2.PNG'/>   
 Control panel:  
 <img src='https://raw.githubusercontent.com/luc-github/ESP3D-WEBUI/master/images/controls.PNG'/>  
 Macro dialog:   
