@@ -1,7 +1,18 @@
-# ESP3D-WEBUI 
-[Latest stable release ![Release Version](https://img.shields.io/github/v/release/luc-github/ESP3D-WEBUI?color=green&include_prereleases&style=plastic) ![Release Date](https://img.shields.io/github/release-date/luc-github/ESP3D-WEBUI.svg?style=plastic)](https://github.com/luc-github/ESP3D-WEBUI/releases/latest/) [![Travis (.org) branch](https://img.shields.io/travis/luc-github/ESP3D-WEBUI/2.1?style=plastic)](https://travis-ci.org/github/luc-github/ESP3D-WEBUI)   
+# ESP3D-WEBUI [<img src="https://img.shields.io/liberapay/patrons/ESP3D.svg?logo=liberapay">](https://liberapay.com/ESP3D)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[Latest development version ![Development Version](https://img.shields.io/badge/Devt-v3.0-yellow?style=plastic) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/luc-github/ESP3D-WEBUI/3.0?style=plastic)](https://github.com/luc-github/ESP3D-WEBUI/tree/3.0) [![Travis (.org) branch](https://img.shields.io/travis/luc-github/ESP3D-WEBUI/3.0?style=plastic)](https://travis-ci.org/github/luc-github/ESP3D-WEBUI)     
+[Latest stable release ![Release Version](https://img.shields.io/github/v/release/luc-github/ESP3D-WEBUI?color=green&include_prereleases&style=plastic) ![Release Date](https://img.shields.io/github/release-date/luc-github/ESP3D-WEBUI.svg?style=plastic)](https://github.com/luc-github/ESP3D-WEBUI/releases/latest/)   
+
+[Latest development version ![Development Version](https://img.shields.io/badge/Devt-v3.0-yellow?style=plastic) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/luc-github/ESP3D-WEBUI/3.0?style=plastic)](https://github.com/luc-github/ESP3D-WEBUI/tree/3.0) [![github-ci](https://github.com/luc-github/ESP3D-WeBUI/workflows/build-ci/badge.svg)](https://github.com/luc-github/ESP3D-WEBUI/actions/workflows/build-ci.yml) [![Project Page ESP3D 3.0](https://img.shields.io/badge/Project%20page-ESP3D%203.0-blue?style=plastic)](https://github.com/users/luc-github/projects/1/views/1)    
+ 
+[Project board](https://github.com/users/luc-github/projects/1/views/1)
+
+> [!WARNING]
+>### Disclaimer
+> The software is provided 'as is,' without any warranty of any kind, expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+>It is essential that you carefully read and understand this disclaimer before using this software and its components. If you do not agree with any part of this disclaimer, please refrain from using the software.  
 
 ## What is that ?
 A web configuration tool for ESP3D 2.1
@@ -26,23 +37,24 @@ So I came with a full rewrite using pure javascript and resized resources:
 The result is a monolitic file with a minimal size allowing almost full control of ESP3D board and your 3D printer
 
 ## Sponsors 
-[<img width="200px" src="https://raw.githubusercontent.com/luc-github/ESP3D/3.0/images/sponsors-supporters/FYSETC/LOGO.png">](https://www.fysetc.com/)  
-<hr/>
-<a href="https://github.com//bdring" style="border: solid 4px red" ><div class="CircleBadge CircleBadge--medium bg-gray-dark">
-  <img height="60" width="60" alt="@bdring" class="CircleBadge-icon" src="https://user-images.githubusercontent.com/8822552/84999946-1078ac80-b152-11ea-84ce-84803b1ab02e.png"></div></a>
+[<img width="200px" src="https://raw.githubusercontent.com/luc-github/ESP3D-WEBUI/2.1/images/sponsors-supporters/MKS/mksmakerbase.jpg" title="MKS Makerbase">](https://github.com/makerbase-mks)&nbsp;&nbsp;
+[<img width="170px" src="https://raw.githubusercontent.com/luc-github/ESP3D-WEBUI/2.1/images/sponsors-supporters/anolex/anolex_logo_github.png" title="Anolex">](https://anolexcnc.com/)&nbsp;&nbsp;
+
 
 ## Supporters
-[<img src="https://raw.githubusercontent.com/luc-github/ESP3D/3.0/images/sponsors-supporters/PanucattDevices/Panucatt.jpg" />](http://www.panucatt.com/)
 
 
 ## Become a sponsor or a supporter
- * A sponsor is a recurent donator [<img src="https://raw.githubusercontent.com/luc-github/ESP3D/3.0/images/sponsors-supporters/sponsor.PNG" />](https://github.com/sponsors/luc-github)   
- The github sponsors are automaticaly displayed by github, if your tier is `A big hug` or more, to thank you for your support, your logo / avatar will be also added to the readme page with eventually with a link to your site.    
+ * A sponsor is a recurent donator    
+If your tier is `10 US$/month` or more, to thank you for your support, your logo / avatar will be added to the readme page with eventually with a link to your site.    
+ * A supporter is per time donator 
+ If your donation is over `120 US$` per year, to thank you for your support, your logo / avatar will be added to the readme page with eventually with a link to your site.  
 
- * A supporter is per time donator [<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG_global.gif" border="0" alt="PayPal – The safer, easier way to pay online.">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y8FFE7NA4LJWQ)    
- If your donation is over a per year sponsor tier `A big hug`, to thank you for your support, your logo / avatar will be added to the readme page with eventually with a link to your site    
+ Every support is welcome, indeed helping users / developing new features need time and devices, donations contribute a lot to make things happen, thank you.
 
- Every support is welcome, giving support/ developing new features need time and devices, donations contribute a lot to make things happen, thank you.
+* liberapay <a href="https://liberapay.com/ESP3D/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> 
+* Paypal [<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG_global.gif" border="0" alt="PayPal – The safer, easier way to pay online.">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQL59C749A78L)
+* ko-fi [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G0C0QT7)
 
 ## Features
 - It supports several firmwares based on Repetier, Marlin, Smoothieware and GRBL.
@@ -99,3 +111,63 @@ You can submit ticket [here](https://github.com/luc-github/ESP3D-WEBUI/issues) o
 
 
  
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/alxblog"><img src="https://avatars.githubusercontent.com/u/3979539?v=4?s=100" width="100px;" alt=" Alexandre "/><br /><sub><b> Alexandre </b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=alxblog" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MonoAnji"><img src="https://avatars.githubusercontent.com/u/16881074?v=4?s=100" width="100px;" alt="René Pasold"/><br /><sub><b>René Pasold</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=MonoAnji" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/aaronse"><img src="https://avatars.githubusercontent.com/u/16479976?v=4?s=100" width="100px;" alt="aaron GitHub"/><br /><sub><b>aaron GitHub</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=aaronse" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Pavulon87"><img src="https://avatars.githubusercontent.com/u/23641103?v=4?s=100" width="100px;" alt="Pavulon87"/><br /><sub><b>Pavulon87</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/issues?q=author%3APavulon87" title="Bug reports">🐛</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=Pavulon87" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://honuputters.com"><img src="https://avatars.githubusercontent.com/u/4861133?v=4?s=100" width="100px;" alt="Mitch Bradley"/><br /><sub><b>Mitch Bradley</b></sub></a><br /><a href="#ideas-MitchBradley" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=MitchBradley" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.facebook.com/Patricecotemusique/"><img src="https://avatars.githubusercontent.com/u/29361809?v=4?s=100" width="100px;" alt="Patrice Côté"/><br /><sub><b>Patrice Côté</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=cotepat" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://engineer2designer.blogspot.com"><img src="https://avatars.githubusercontent.com/u/25747949?v=4?s=100" width="100px;" alt="E2D"/><br /><sub><b>E2D</b></sub></a><br /><a href="#translation-Engineer2Designer" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://cedrik-theesen.de"><img src="https://avatars.githubusercontent.com/u/24916321?v=4?s=100" width="100px;" alt="Cedrik Theesen"/><br /><sub><b>Cedrik Theesen</b></sub></a><br /><a href="#translation-duramson" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/royfocker19"><img src="https://avatars.githubusercontent.com/u/39307144?v=4?s=100" width="100px;" alt="royfocker19"/><br /><sub><b>royfocker19</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=royfocker19" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/BToersche"><img src="https://avatars.githubusercontent.com/u/16536432?v=4?s=100" width="100px;" alt="Bart Toersche"/><br /><sub><b>Bart Toersche</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=BToersche" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vivian-ng"><img src="https://avatars.githubusercontent.com/u/24537694?v=4?s=100" width="100px;" alt="vivian-ng"/><br /><sub><b>vivian-ng</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=vivian-ng" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/drzejkopf"><img src="https://avatars.githubusercontent.com/u/41212609?v=4?s=100" width="100px;" alt="drzejkopf"/><br /><sub><b>drzejkopf</b></sub></a><br /><a href="#translation-drzejkopf" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.gtmax.com.br"><img src="https://avatars.githubusercontent.com/u/6072702?v=4?s=100" width="100px;" alt="Luciano Charles Moda"/><br /><sub><b>Luciano Charles Moda</b></sub></a><br /><a href="#translation-lucmoda" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://youprintin3d.de"><img src="https://avatars.githubusercontent.com/u/8026764?v=4?s=100" width="100px;" alt="AxelB"/><br /><sub><b>AxelB</b></sub></a><br /><a href="#translation-leseaw" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Zefram88"><img src="https://avatars.githubusercontent.com/u/40454706?v=4?s=100" width="100px;" alt="Zefram88"/><br /><sub><b>Zefram88</b></sub></a><br /><a href="#translation-Zefram88" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/3d-gussner"><img src="https://avatars.githubusercontent.com/u/25530011?v=4?s=100" width="100px;" alt="3d-gussner"/><br /><sub><b>3d-gussner</b></sub></a><br /><a href="#translation-3d-gussner" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://aganov.github.io"><img src="https://avatars.githubusercontent.com/u/176610?v=4?s=100" width="100px;" alt="Alex Ganov"/><br /><sub><b>Alex Ganov</b></sub></a><br /><a href="#ideas-aganov" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=aganov" title="Code">💻</a> <a href="#mentoring-aganov" title="Mentoring">🧑‍🏫</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bdring"><img src="https://avatars.githubusercontent.com/u/189677?v=4?s=100" width="100px;" alt="bdring"/><br /><sub><b>bdring</b></sub></a><br /><a href="#financial-bdring" title="Financial">💵</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/issues?q=author%3Abdring" title="Bug reports">🐛</a> <a href="#platform-bdring" title="Packaging/porting to new platform">📦</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ArturNadolski"><img src="https://avatars.githubusercontent.com/u/20038314?v=4?s=100" width="100px;" alt="n4d01"/><br /><sub><b>n4d01</b></sub></a><br /><a href="#translation-ArturNadolski" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.civade.com"><img src="https://avatars.githubusercontent.com/u/2135006?v=4?s=100" width="100px;" alt="Jean-Philippe CIVADE"/><br /><sub><b>Jean-Philippe CIVADE</b></sub></a><br /><a href="#translation-ewidance" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kondorzs"><img src="https://avatars.githubusercontent.com/u/15940476?v=4?s=100" width="100px;" alt="kondorzs"/><br /><sub><b>kondorzs</b></sub></a><br /><a href="#translation-kondorzs" title="Translation">🌍</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/onekk"><img src="https://avatars.githubusercontent.com/u/7129964?v=4?s=100" width="100px;" alt="Carlo"/><br /><sub><b>Carlo</b></sub></a><br /><a href="#translation-onekk" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/zrwd01"><img src="https://avatars.githubusercontent.com/u/33946060?v=4?s=100" width="100px;" alt="zrwd01"/><br /><sub><b>zrwd01</b></sub></a><br /><a href="#translation-zrwd01" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Wesie"><img src="https://avatars.githubusercontent.com/u/9315139?v=4?s=100" width="100px;" alt="Wesie"/><br /><sub><b>Wesie</b></sub></a><br /><a href="#translation-Wesie" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/DusDus"><img src="https://avatars.githubusercontent.com/u/69902032?v=4?s=100" width="100px;" alt="DusDus"/><br /><sub><b>DusDus</b></sub></a><br /><a href="#translation-DusDus" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/nyarurato"><img src="https://avatars.githubusercontent.com/u/8384007?v=4?s=100" width="100px;" alt="nyarurato"/><br /><sub><b>nyarurato</b></sub></a><br /><a href="#translation-nyarurato" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/terjeio"><img src="https://avatars.githubusercontent.com/u/20260062?v=4?s=100" width="100px;" alt="Terje Io"/><br /><sub><b>Terje Io</b></sub></a><br /><a href="#ideas-terjeio" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=terjeio" title="Code">💻</a> <a href="#translation-terjeio" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.v1engineering.com/"><img src="https://avatars.githubusercontent.com/u/55478432?v=4?s=100" width="100px;" alt="Ryan V1"/><br /><sub><b>Ryan V1</b></sub></a><br /><a href="#financial-V1EngineeringInc" title="Financial">💵</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jamespearson04"><img src="https://avatars.githubusercontent.com/u/26628667?v=4?s=100" width="100px;" alt="James Pearson"/><br /><sub><b>James Pearson</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=jamespearson04" title="Code">💻</a> <a href="#ideas-jamespearson04" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dbuezas"><img src="https://avatars.githubusercontent.com/u/777196?v=4?s=100" width="100px;" alt="David Buezas"/><br /><sub><b>David Buezas</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=dbuezas" title="Code">💻</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/issues?q=author%3Adbuezas" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rondlh"><img src="https://avatars.githubusercontent.com/u/77279634?v=4?s=100" width="100px;" alt="rondlh"/><br /><sub><b>rondlh</b></sub></a><br /><a href="https://github.com/luc-github/ESP3D-WEBUI/commits?author=rondlh" title="Code">💻</a> <a href="https://github.com/luc-github/ESP3D-WEBUI/pulls?q=is%3Apr+reviewed-by%3Arondlh" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
